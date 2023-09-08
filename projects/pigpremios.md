@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pigpremios/pig-square.jpg
+image: img/pigpremios/pig-square.png
 title: 'Pig Premios'
 date: 2023-04-28
 published: true

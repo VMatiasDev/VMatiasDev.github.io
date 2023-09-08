@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/videoplayer/videoplayer-ss.png
-title: 'VidePlayer'
+title: 'VideoPlayer'
 date: 2022-12-25
 published: true
 labels:
@@ -10,7 +10,7 @@ labels:
   - Styled-Components
   - React
   - NextJS
-summary: 'A Simples VideoPlayer.'
+summary: 'A Simple VideoPlayer.'
 ---
 
 <img class="img-fluid" src="../img/videoplayer/videoplayer-ss.png">

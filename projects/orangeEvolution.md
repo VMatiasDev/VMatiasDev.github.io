@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/orangeevolution/orange-square.jpg
+image: img/orangeevolution/orange-square.png
 title: 'Orange Evolution'
 date: 2022-11-15
 published: true

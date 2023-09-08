@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/easypaint/easypaint-ss.jpg
+image: img/easypaint/easypaint-ss.png
 title: 'Easy Paint'
 date: 2023-03-28
 published: true
