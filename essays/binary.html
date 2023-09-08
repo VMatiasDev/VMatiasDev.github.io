@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Binary and Decimal | Vitor Matias | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/vmatiasdev.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vitor Matias | Professional Portfolio">
+    <meta property="og:url" content="https://vmatiasdev.github.io//essays/binary.html">
+    <meta property="og:title" content="Binary and Decimal | Vitor Matias | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/vmatiasdev.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Binary and Decimal | Vitor Matias | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Vitor Matias</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Binary and Decimal</h1>
+  <span class="date">08 Apr 2023</span>
+  <hr>
+  <p>pt-BR</p>
+
+<p>[Números - Binário e Decimal]</p>
+
+<p>Hoje quero falar um pouco sobre um assunto que as vezes assusta algumas pessoas, mas que podemos entender bem facilmente relacionando com algo que conhecemos bem.</p>
+
+<p>Os números decimais que usamos no dia a dia, levam esse nome por terem base 10. Logo, os números binários levam o nome pela base 2. Simples</p>
+
+<p>Entendido isso, podemos usar o seguinte exemplo:
+Vamos contando 1, 2, 3, 4, 5, 6, 7… quando chegamos em 8, 9… pra ir pra o número 10, se adiciona um dígito na casa da esquerda (dezenas) e 0 na casa da direita (unidades). Isso se repete infinitamente com todas as casas. Adicionamos 1 dígito na casa seguinte (lembre que é sempre à esquerda) e recomeça a contagem.</p>
+
+<p>Da mesma forma, no sistema binário temos 0, 1 e chegamos no limite. O que fazer? Adicionar 1 dígito à esquerda e 0 à direita (repetindo infinitamente também). Ficando da seguinte forma: 0 -&gt; 1 -&gt; 10 -&gt; 11 -&gt; 100 -&gt; 101 -&gt; 110 -&gt; 111 -&gt; 1000 -&gt; 1001 -&gt; 1010 -&gt; e aqui já deu pra entender.</p>
+
+<p>Ahh legal. Agora que sabemos como contar em números binários, como podemos transformar um número binário em decimal e um decimal em binário?</p>
+
+<p>Após saber como contar, é interessante saber como converter um número em determinada base em outro. Aqui vamos falar de binário em decimal e vice-versa.</p>
+
+<p>Digamos que eu tenha a resposta para tudo. Provavelmente você já sabe qual meu número, mas caso não, vamos converter ele de binário para decimal</p>
+
+<p>A resposta para tudo em binário é 101010. Agora como saber em decimal?
+Primeiramente sabemos que é um número de 6 dígitos.
+Segundamente sabemos que é um número de base 2.</p>
+
+<p>Então podemos fazer o seguinte cálculo:
+1<em>2⁵ + 0</em>2⁴ + 1<em>2³ + 0</em>2² + 1<em>2¹ + 0</em>2⁰
+Temos então o resultado:
+32 + 0 + 8 + 0 + 2 + 0 = 42 &lt;- essa é a resposta para tudo.</p>
+
+<p>Acredito que você entendeu a lógica, mas caso não olhe novamente e veja o padrão.</p>
+
+<p>Agora vamos supor que você já sabia que a resposta para tudo é 42 e queria saber em binário. Como fazer?</p>
+
+<p>Novamente com um cálculo simples, mas dessa vez usando divisão.</p>
+
+<p>42/2 = 21 (resta 0)
+21/2 = 10 (resta 1)
+10/2 = 5 (resta 0)
+5/2 = 2 (resta 1)
+2/2 = 1 (resta 0)
+1/2 = 0 (resta 1)</p>
+
+<p>Agora volte do último resto até o primeiro e compare com o número dito no meio do post. 😉</p>
+
+<p>E é isto. Até logo!</p>
+
+<p>en-US</p>
+
+<p>[Numbers - Binary and Decimal]</p>
+
+<p>Today, I want to talk a little about a topic that sometimes scares some people, but we can understand it quite easily by relating it to something we already know well.</p>
+
+<p>The decimal numbers we use in our daily lives are called that because they are based on 10. Consequently, binary numbers are called so because they are based on 2. Simple.</p>
+
+<p>With that understanding, we can use the following example:
+We count 1, 2, 3, 4, 5, 6, 7… when we reach 8, 9… to get to the number 10, we add a digit on the left (tens) and 0 on the right (units). This process repeats infinitely with all the places. We add 1 digit in the next place (remember it’s always to the left), and the counting starts again.</p>
+
+<p>Similarly, in the binary system, we have 0, 1, and we reach the limit. What to do? Add 1 digit to the left and 0 to the right (also repeating infinitely). It looks like this: 0 -&gt; 1 -&gt; 10 -&gt; 11 -&gt; 100 -&gt; 101 -&gt; 110 -&gt; 111 -&gt; 1000 -&gt; 1001 -&gt; 1010 -&gt; and by now, you’ve probably understood.</p>
+
+<p>Ah, cool. Now that we know how to count in binary numbers, how can we convert a binary number to decimal and a decimal number to binary?</p>
+
+<p>After learning how to count, it’s interesting to know how to convert a number in one base to another. Here, we’ll talk about binary to decimal and vice versa.</p>
+
+<p>Let’s say I have the answer to everything. You probably already know my number, but if not, let’s convert it from binary to decimal.</p>
+
+<p>The answer to everything in binary is 101010. Now, how do we find it in decimal?
+First, we know it’s a 6-digit number.
+Second, we know it’s a base 2 number.</p>
+
+<p>So, we can do the following calculation:
+12^5 + 02^4 + 12^3 + 02^2 + 12^1 + 02^0
+Then we get the result:
+32 + 0 + 8 + 0 + 2 + 0 = 42 &lt;- that’s the answer to everything.</p>
+
+<p>I believe you’ve understood the logic, but if not, take another look and see the pattern.</p>
+
+<p>Now, let’s suppose you already knew that the answer to everything is 42 and you wanted to know it in binary. How do you do it?</p>
+
+<p>Again, with a simple calculation, but this time using division.</p>
+
+<p>42/2 = 21 (remainder 0)
+21/2 = 10 (remainder 1)
+10/2 = 5 (remainder 0)
+5/2 = 2 (remainder 1)
+2/2 = 1 (remainder 0)
+1/2 = 0 (remainder 1)</p>
+
+<p>Now, go from the last remainder to the first and compare it with the number mentioned in the middle of the post. 😉</p>
+
+<p>And that’s it. Goodbye!</p>
+
+</div>
+
+<footer
+  class="navbar navbar-expand navbar-light bg-light bg-gradient border-top"
+>
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small
+          ><a class="nav-link" href="https://github.com/VMatiasDev"
+            >Vitor Matias</a
+          ></small
+        >
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

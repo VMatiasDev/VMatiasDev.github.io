@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Vitor Matias",
+    "label": "Software Developer",
+    "picture": "https://github.com/vmatiasdev.png",
+    "email": "vitormatiasdev@gmail.com",
+    "phone": "(81) 99533-7243",
+    "website": "https://vmatiasdev.github.io/",
+    "summary": "Hello! If you are looking for a frontend developer with experience in React, here I am!",
+    "location": { "address": "", "postalCode": "", "city": "Caruaru", "countryCode": "BRA", "region": "Brazil" },
+    "profiles": [
+      { "network": "github", "username": "vmatiasdev", "url": "https://github.com/vmatiasdev" },
+      { "network": "linkedin", "username": "vitumatias", "url": "https://www.linkedin.com/in/vitormatiasf/" },
+      { "network": "twitter", "username": "vituumatias", "url": "https://twitter.com/vituumatias" },
+      { "network": "instagram", "username": "vitumatias", "url": "https://instagram.com/vitumatias" }
+    ]
+  },
+  "interests": [
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "React" },
+    { "name": "NextJs" },
+    { "name": "Git" },
+    { "name": "Linux" },
+    { "name": "Styled-Components" },
+    { "name": "Sass/Scss" },
+    { "name": "Html" },
+    { "name": "Css" },
+    { "name": "Java" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "JavaScript", "TypeScript", "React", "NextJs", "Java", "Html", "CSS", "Styled-Components", "Sass/Scss" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Ubuntu", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal de Pernambuco - UFPE",
+      "area": "Math",
+      "studyType": "BSc",
+      "startDate": "2017-02-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "IFP - Instituto de Formação Profissional",
+      "position": "Tecnology Teacher",
+      "website": "",
+      "startDate": "2023-05-19",
+      "endDate": "Present",
+      "summary": "Teacher of Administrative Management course",
+      "highlights": [
+        "Preparing and delivering classes on various technology topics for an Administrative Management course",
+        "Classes on basic computer skills, Microsoft Office suite, operating systems, internet concepts, programming principles, etc."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Grupo FCamara",
+      "website": "https://orangeevolution.netlify.app/",
+      "position": "FrontEnd Developer",
+      "startDate": "2022-11-01",
+      "endDate": "2022-11-16",
+      "summary": "Hackathon",
+      "highlights": [
+        "Project developed during a hackathon in the last stage of fcamara’s training program",
+        "Given the problem, my squad and I started creating the product through UX design steps. I worked in the organization of gitflow and conventional commits for my team",
+        "I developed together with two other devs, the frontend of the application, doing all the stylization, responsiveness, requests and functionalities of the application",
+        "Main techs: ReactJs, Styled-Components, Java, Spring, MySQL"
+      ]
+    },
+    {
+      "organization": "SnakeTech",
+      "website": "https://snaketech.netlify.app/",
+      "position": "FrontEnd Developer",
+      "startDate": "2022-09-01",
+      "endDate": "2022-09-30",
+      "summary": "OpenSource Project",
+      "highlights": [
+        "I worked actively in the development of the site from the survey of the requirements to the delivery of the same. We followed good code practices, good commits practices and had the code review culture. We also use scrum to define tasks. I was responsible for some sass configurations, the creation of some components used and the integration of the backend with the frontend",
+        "Main techs: React, JavaScript, Html, Sass/Scss, Git, Github"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "EF SET English Certificate 75/100 (C2 Proficient)",
+      "date": "2022",
+      "awarder": "EF Standard English Test (EF SET)",
+      "summary": "The achieved English level is 75/100 on the EF SET score scale and C2 Proficient according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
