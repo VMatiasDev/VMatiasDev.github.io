@@ -1,43 +1,49 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Vitor Matias",
+    "label": "Software Developer",
+    "picture": "https://github.com/vmatiasdev.png",
+    "email": "vitormatiasdev@gmail.com",
+    "phone": "(81) 99533-7243",
+    "website": "https://vmatiasdev.github.io/",
+    "summary": "Hello! If you are looking for a frontend developer with experience in React, here I am!",
+    "location": { "address": "", "postalCode": "", "city": "Caruaru", "countryCode": "BRA", "region": "Brazil" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "vmatiasdev", "url": "https://github.com/vmatiasdev" },
+      { "network": "linkedin", "username": "vitumatias", "url": "https://www.linkedin.com/in/vitormatiasf/" },
+      { "network": "twitter", "username": "vituumatias", "url": "https://twitter.com/vituumatias" },
+      { "network": "instagram", "username": "vitumatias", "url": "https://instagram.com/vitumatias" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "React" },
+    { "name": "NextJs" },
+    { "name": "Git" },
+    { "name": "Linux" },
+    { "name": "Styled-Components" },
+    { "name": "Sass/Scss" },
+    { "name": "Html" },
+    { "name": "Css" },
+    { "name": "Java" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "JavaScript", "TypeScript", "React", "NextJs", "Java", "Html", "CSS", "Styled-Components", "Sass/Scss" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Ubuntu", "Git/GitHub" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Universidade Federal de Pernambuco - UFPE",
+      "area": "Math",
+      "studyType": "BSc",
+      "startDate": "2017-02-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -45,69 +51,52 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "IFP - Instituto de Formação Profissional",
+      "position": "Tecnology Teacher",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-05-19",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Teacher of Administrative Management course",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Preparing and delivering classes on various technology topics for an Administrative Management course",
+        "Classes on basic computer skills, Microsoft Office suite, operating systems, internet concepts, programming principles, etc."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Grupo FCamara",
+      "website": "https://orangeevolution.netlify.app/",
+      "position": "FrontEnd Developer",
+      "startDate": "2022-11-01",
+      "endDate": "2022-11-16",
+      "summary": "Hackathon",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Project developed during a hackathon in the last stage of fcamara’s training program",
+        "Given the problem, my squad and I started creating the product through UX design steps. I worked in the organization of gitflow and conventional commits for my team",
+        "I developed together with two other devs, the frontend of the application, doing all the stylization, responsiveness, requests and functionalities of the application",
+        "Main techs: ReactJs, Styled-Components, Java, Spring, MySQL"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "SnakeTech",
+      "website": "https://snaketech.netlify.app/",
+      "position": "FrontEnd Developer",
+      "startDate": "2022-09-01",
+      "endDate": "2022-09-30",
+      "summary": "OpenSource Project",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "I worked actively in the development of the site from the survey of the requirements to the delivery of the same. We followed good code practices, good commits practices and had the code review culture. We also use scrum to define tasks. I was responsible for some sass configurations, the creation of some components used and the integration of the backend with the frontend",
+        "Main techs: React, JavaScript, Html, Sass/Scss, Git, Github"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "EF SET English Certificate 75/100 (C2 Proficient)",
+      "date": "2022",
+      "awarder": "EF Standard English Test (EF SET)",
+      "summary": "The achieved English level is 75/100 on the EF SET score scale and C2 Proficient according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores."
     }
   ],
   "references": [
